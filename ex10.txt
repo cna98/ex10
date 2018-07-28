@@ -1,0 +1,18 @@
+
+//بزرگترین عدد سه رقمی بخش پذیر بر 3 و 5
+
+package ex10;
+
+public class Ex10 {
+
+		public static void main(String[]args)
+		{
+			int max = 0;
+			for(int i = 100 ; i<=999 ; i++)
+			{
+				if((i % 3 == 0) && (i % 5 == 0))
+					max = i;
+			}
+			System.out.print(max);
+		}
+}
